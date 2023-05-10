@@ -1,0 +1,32 @@
+{
+  "name": "recipe_sharing",
+  "version": "1.0.0",
+  "description": "Final Project dibimbing BE 11",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvianistiqlalhanafi/recipe_sharing.git"
+  },
+  "keywords": [
+    "recipe_sharing",
+    "final_project"
+  ],
+  "author": "Alvian Istiqlal Hanafi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvianistiqlalhanafi/recipe_sharing/issues"
+  },
+  "homepage": "https://github.com/alvianistiqlalhanafi/recipe_sharing#readme",
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.4",
+    "nodemon": "^2.0.22"
+  }
+}
