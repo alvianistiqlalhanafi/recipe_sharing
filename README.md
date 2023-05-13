@@ -122,6 +122,9 @@ DB_NAME = #your_db_username
 
 ## API Endpoint
 
+Users API Endpoint :
+
+```
 | Method | Endpoint         | Description                         |
 | ------ | ---------------- | ----------------------------------- |
 | GET    | /users           | Get the list all users              |
@@ -129,15 +132,34 @@ DB_NAME = #your_db_username
 | POST   | /users           | Create new users                    |
 | PUT    | /users/{usersID} | Update spesific users               |
 | DELETE | /users/{usersID} | Delete spesific users               |
+```
+Recipes API Endpoint :
+
+```
+| Method | Endpoint         | Description                         |
+| ------ | ---------------- | ----------------------------------- |
 | GET    | /recipes         | Get the list all recipes            |
 | GET    | /recipes/{id}    | Get recipes by recipe_id            |
 | POST   | /recipes         | Create new recipes                  |
 | PUT    | /recipes/{id}    | Update spesific recipes             |
 | DELETE | /recipes/{id}    | Delete spesific recipes             |
+```
+Categories API Endpoint :
+
+```
+| Method | Endpoint         | Description                         |
+| ------ | ---------------- | ----------------------------------- |
 | GET    | /categories      | Get the list all categories         |
 | GET    | /categories/{id} | Get categories by categories_id     |
 | POST   | /categories      | Create new categories               |
 | PUT    | /categories/{id} | Update spesific categories          |
 | DELETE | /categories/{id} | Delete spesific categories          |
+```
+Reviews API Endpoint :
+
+```
+| Method | Endpoint         | Description                         |
+| ------ | ---------------- | ----------------------------------- |
 | POST   | /reviews         | Create new reviews                  |
 | DELETE | /reviews/{id}    | Delete spesific reviews             |
+```
